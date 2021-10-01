@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIT238 Digital Wallet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<section>
+    <header class ="signup">
+		<nav>
+			<ul class="menu">
+				<li><a href=".html">Home</a></li>
+			</ul>
+		</nav>
+		
+		<h2>SmartCoin</h2>
+	</header>
+
+    <div class = "scan"> Sign up now to buy the way YOU want!</div>
+
+	<form action="#" class="registration-form">
+    <form name="registration form" onSubmit="return formValidation();">
+        <h1>Sign Up</h1>
+        <ul>
+            <div class="textb">
+                <input type="username" required>
+                <div class="placeholder">Name</div>
+            </div>
+        
+            <div class="textb">
+                <input type="tel" required>
+                <div class="placeholder">Phone Number</div>
+            </div>
+        
+            <div class="textb">
+                <input type="password" required>
+                <div class="placeholder">Password</div>
+                <div class="show-password fas fa-eye-slash"></div>
+            </div>
+
+            <div class="submit textb">
+                <input type="submit" value="Submit">
+			</div>
+        </ul>    
+    </form>
+</section>
